@@ -21,7 +21,11 @@
 # definition file).
 #
 
-DEVICE_TREE := device/motorola/ali
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
+# Device tree 
+LOCAL_PATH := device/motorola/ali
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
